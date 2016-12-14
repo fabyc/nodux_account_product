@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath
+        expr="/form/notebook/page[@id='accounting']/field[@name='account_expense']"
+        position="after">
+            <newline/>
+            <!--label name="account_revenue_no_iva"/>
+            <field name="account_revenue_no_iva"/>
+            <label name="account_expense_no_iva"/>
+            <field name="account_expense_no_iva"/>
+            <newline/-->
+            <label name="account_devolucion_iva"/>
+            <field name="account_devolucion_iva"/>
+            <label name="account_expense_devolucion_iva"/>
+            <field name="account_expense_devolucion_iva"/>
+            <newline/>
+            <label name="account_devolucion_no_iva"/>
+            <field name="account_devolucion_no_iva"/>
+            <label name="account_expense_devolucion_no_iva"/>
+            <field name="account_expense_devolucion_no_iva"/>
+            <newline/>
+            <label name="account_descuento_iva"/>
+            <field name="account_descuento_iva"/>
+            <label name="account_expense_descuento_iva"/>
+            <field name="account_expense_descuento_iva"/>
+            <newline/>
+            <label name="account_descuento_no_iva"/>
+            <field name="account_descuento_no_iva"/>
+            <label name="account_expense_descuento_no_iva"/>
+            <field name="account_expense_descuento_no_iva"/>
+            <newline/>
+
+    </xpath>
+</data>
